@@ -31,6 +31,50 @@
 				"url": "https://reqres.in/api/users"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "48a904d0-acc2-4203-8e13-81e8d2243d4e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"eve.holt@reqres.in\",\r\n  \"password\": \"cityslicka\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ceef67ce-8935-4220-aee6-2e450df73eb3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"eve.holt@reqres.in\",\r\n  \"password\": \"cityslicka\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "/api/login"
+			},
+			"response": []
 		}
 	]
 }
