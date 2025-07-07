@@ -70,11 +70,13 @@
 						},
 						"url": "/api/login"
 					},
+					"status": "OK",
+					"code": 200,
 					"_postman_previewlanguage": null,
 					"header": null,
 					"cookie": [],
 					"responseTime": null,
-					"body": null
+					"body": "{\r\n  \"token\": \"QpwL5tke4Pnpja7X4\"\r\n}\r\n"
 				}
 			]
 		},
